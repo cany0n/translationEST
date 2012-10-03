@@ -18,9 +18,9 @@
 <resources>
 
     <string-array name="achep_alarm_flip_actions" translatable="true">
-        <item>Disabled</item>
-        <item>Snooze</item>
-        <item>Dismiss</item>
+        <item>Keelatud</item>
+        <item>Uinak</item>
+        <item>Lõpeta</item>
     </string-array>
     <string-array name="achep_alarm_flip_actions_values" translatable="false">
         <item>0</item>
@@ -68,9 +68,9 @@
     </string-array>
 
     <string-array name="entries_install_location">
-        <item>Automatic</item>
-        <item>Internal</item>
-        <item>External</item>
+        <item>Automaatne</item>
+        <item>Sisemine</item>
+        <item>Välimine</item>
     </string-array>
 
     <string-array name="values_install_location" translatable="false">
@@ -94,9 +94,9 @@
     </string-array>
 
     <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Small</item>
-        <item>None (Default)</item>
+        <item>Tavaline</item>
+        <item>Väiksem</item>
+        <item>Mitte ükski (Vaikimisi)</item>
     </string-array>
 
     <string-array name="values_status_bar_am_pm" translatable="false">
@@ -106,9 +106,9 @@
     </string-array>
 
     <string-array name="entries_status_bar_battery">
-        <item>Icon (Default)</item>
-        <item>Percentage</item>
-        <item>Hidden</item>
+        <item>Ikoon (Vaikimisi)</item>
+        <item>Protsentides</item>
+        <item>Peidetud</item>
     </string-array>
 
     <string-array name="values_status_bar_battery" translatable="false">
@@ -184,9 +184,9 @@
     </string-array>
 
     <string-array name="haptic_feedback_entries">
-        <item>Global Settings</item>
-        <item>On</item>
-        <item>Off</item>
+        <item>Üldised seaded</item>
+        <item>Sees</item>
+        <item>Väljas</item>
     </string-array>
 
     <string-array name="haptic_feedback_values" translatable="false">
@@ -238,12 +238,12 @@
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
-        <item>Use application setting</item>
-        <item>2 (Fast)</item>
+        <item>Kasuta rakenduse seadeid</item>
+        <item>2 (Kiire)</item>
         <item>3</item>
-        <item>4 (Medium)</item>
+        <item>4 (Keskmine)</item>
         <item>5</item>
-        <item>6 (Slow)</item>
+        <item>6 (Aeglane)</item>
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_values" translatable="false">
@@ -272,16 +272,16 @@
     </string-array>
 
     <string-array name="pref_lockscreen_delay_entries">
-        <item>Immediately</item>
-        <item>1s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>  
-        <item>30s</item>
-        <item>1m</item>
-        <item>5m</item>
-        <item>10m</item>
-        <item>30m</item>
+        <item>Viivitamatult</item>
+        <item>1 sek</item>
+        <item>5 sek</item>
+        <item>10 sek</item>
+        <item>15 sek</item>  
+        <item>30 sek</item>
+        <item>1 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
     </string-array>
 
     <string-array name="pref_lockscreen_delay_values" translatable="false">
@@ -298,7 +298,7 @@
     </string-array>
 
     <string-array name="pref_compcache_size_entries">
-        <item>Disabled</item>
+        <item>Keelatud</item>
         <item>10%</item>
         <item>18%</item>
         <item>26%</item>
@@ -312,12 +312,12 @@
     </string-array>
 
     <string-array name="entries_light_filter_window">
-        <item>2 s</item>
-        <item>5 s</item>
-        <item>10 s</item>
-        <item>20 s</item>
-        <item>30 s</item>
-        <item>60 s</item>
+        <item>2 sek</item>
+        <item>5 sek</item>
+        <item>10 sek</item>
+        <item>20 sek</item>
+        <item>30 sek</item>
+        <item>60 sek</item>
     </string-array>
 
     <string-array name="values_light_filter_window" translatable="false">
@@ -330,7 +330,7 @@
     </string-array>
 
     <string-array name="entries_light_filter_reset">
-        <item>Disabled</item>
+        <item>Keelatud</item>
         <item>400 lux</item>
         <item>500 lux</item>
         <item>600 lux</item>
@@ -358,11 +358,11 @@
     </string-array>
 
     <string-array name="entries_light_filter_interval">
-        <item>0.5 s</item>
-        <item>1 s</item>
-        <item>2 s</item>
-        <item>5 s</item>
-        <item>10 s</item>
+        <item>0.5 sek</item>
+        <item>1 sek</item>
+        <item>2 sek</item>
+        <item>5 sek</item>
+        <item>10 sek</item>
     </string-array>
 
     <string-array name="values_light_filter_interval" translatable="false">
@@ -386,7 +386,7 @@
         <item>14</item>
         <item>16</item>
         <item>18</item>
-        <item>20 (default)</item>
+        <item>20 (Vaikimisi)</item>
         <item>22</item>
         <item>24</item>
         <item>26</item>
@@ -440,7 +440,7 @@
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>
-        <item>6 dB (default)</item>
+        <item>6 dB (Vaikimisi)</item>
         <item>8 dB</item>
         <item>10 dB</item>
     </string-array>
@@ -454,8 +454,8 @@
     </string-array>
 
     <string-array name="entries_sound_limitvol">
-        <item>Attenuated system setting</item>
-        <item>Music volume (default)</item>
+        <item>Summutatud süsteemi seadistus</item>
+        <item>Muusika volüüm (Vaikimisi)</item>
     </string-array>
 
     <string-array name="values_sound_limitvol" translatable="false">
@@ -483,8 +483,8 @@
 
     <string-array name="entries_network_widget">
         <item>2G/3G+2G</item>  
-        <item>2G/3G Only</item>   
-        <item>2G/3G Only/3G+2G</item>
+        <item>Ainult 2G/3G </item>   
+        <item>Ainult 2G/3G ja 3G+2G</item>
     </string-array>
 
     <string-array name="values_network_widget" translatable="false">
@@ -494,8 +494,8 @@
     </string-array>
 
     <string-array name="entries_screentimeout_widget">
-        <item>15s/1m/5m</item>
-        <item>30s/2m/5m</item>
+        <item>15 sek/1 min/5 min</item>
+        <item>30 sek/2 min/5 min</item>
     </string-array>
 
     <string-array name="values_screentimeout_widget" translatable="false">
@@ -518,8 +518,8 @@
     </string-array>
 
     <string-array name="entries_flash_widget">
-        <item>Normal</item>
-        <item>High / Death Ray</item>
+        <item>Tavaline</item>
+        <item>Kõrge / Surmakiirgus</item>
     </string-array>
 
     <string-array name="values_flash_widget" translatable="false">
@@ -528,8 +528,8 @@
     </string-array>
 
     <string-array name="entries_mobiledatanetwork_widget">
-        <item>Off</item>
-        <item>On</item>
+        <item>Väljas</item>
+        <item>Sees</item>
     </string-array>
 
     <string-array name="values_mobiledatanetwork_widget" translatable="false">
@@ -538,7 +538,7 @@
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1 (broadest)</item>
+        <item>1 (Kõige laiem)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -549,7 +549,7 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12 (strictest)</item>
+        <item>12 (Kõige täpsem)</item>
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_values" translatable="false">
@@ -628,9 +628,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_background_entries">
-        <item>Color fill</item>
-        <item>Custom image</item>
-        <item>Default wallpaper</item>
+        <item>Täitevärv</item>
+        <item>Oma pilt</item>
+        <item>Vaikimisi taustapilt</item>
     </string-array>
 
     <string-array name="pref_lockscreen_background_values" translatable="false">
@@ -654,10 +654,10 @@
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
-        <item>Disabled</item>
-        <item>Wired Headset</item>
-        <item>Bluetooth A2DP Headset</item>
-        <item>Both</item>
+        <item>Keelatud</item>
+        <item>Juhtmega kõrvaklapid</item>
+        <item>Bluetooth A2DP (handsfree)</item>
+        <item>Mõlemad</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_values" translatable="false">
@@ -668,12 +668,12 @@
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_lookahead_entries">
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>3 days</item>
-        <item>1 week</item>
+        <item>3 tundi</item>
+        <item>6 tundi</item>
+        <item>12 tundi</item>
+        <item>1 päev</item>
+        <item>3 päeva</item>
+        <item>1 nädal</item>
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_lookahead_values" translatable="false">
@@ -686,9 +686,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
-        <item>Do not show</item>
-        <item>Show first line</item>
-        <item>Show all</item>
+        <item>Ära näita</item>
+        <item>Näita esimest rida</item>
+        <item>Näita kõike</item>
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_show_event_metadata_values" translatable="false">
@@ -698,10 +698,10 @@
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
-        <item>None</item>
-        <item>Edge Glow</item>
-        <item>Bounce and Glow</item>
-        <item>Bounce</item>
+        <item>Mitte ükski</item>
+        <item>Servahelendus</item>
+        <item>Hüple ja helenda</item>
+        <item>Hüple</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_values" translatable="false">
@@ -712,11 +712,11 @@
     </string-array>
 
     <string-array name="entries_overscroll_weight">
-        <item>Extra Heavy</item>
-        <item>Heavy</item>
-        <item>Medium</item>
-        <item>Light</item>
-        <item>Extra Light</item>
+        <item>Väga raske</item>
+        <item>Raske</item>
+        <item>Keskmine</item>
+        <item>Kerge</item>
+        <item>Väga kerge</item>
     </string-array>
 
     <string-array name="values_overscroll_weight" translatable="false">
@@ -752,17 +752,17 @@
     </string-array>
 
     <string-array name="entries_vol_actions">
-        <item>None/Default</item>
-        <item>Home</item>
-        <item>Menu</item>
-        <item>Back</item>
-        <item>Search</item>
-        <item>Power</item>
-        <item>Call</item>
-        <item>End call</item>
-        <item>Play/Pause</item>
-        <item>Next track</item>
-        <item>Prev track</item>
+        <item>Mitte ükski(Vaikimisi)</item>
+        <item>Kodu</item>
+        <item>Menüü</item>
+        <item>Tagasi</item>
+        <item>Otsi</item>
+        <item>Sisselülitus/Väljalülitus</item>
+        <item>Helista</item>
+        <item>Lõpeta kõne</item>
+        <item>Mängi/Paus</item>
+        <item>Järgmine lugu</item>
+        <item>Eelmine lugu</item>
         <item>Long press home</item>
     </string-array>
 
@@ -782,13 +782,13 @@
     </string-array>
 
     <string-array name="entries_unhide_button">
-        <item>Home</item>
-        <item>Menu</item>
-        <item>Back</item>
-        <item>Search</item>
-        <item>Camera</item>
-        <item>Volume Up</item>
-        <item>Volume Down</item>
+        <item>Kodu</item>
+        <item>Menüü</item>
+        <item>Tagasi</item>
+        <item>Otsi</item>
+        <item>Kaamera</item>
+        <item>Helitugevust juurde</item>
+        <item>Helitugevust vähemaks</item>
     </string-array>
 
     <string-array name="values_unhide_button" translatable="false">
@@ -802,11 +802,11 @@
     </string-array>
 
     <string-array name="entries_long_press_menu">
-        <item>None</item>
-        <item>Soft keyboard</item>
-        <item>Search key</item>
-        <item>Custom Application</item>
-        <item>Toggle statusbar</item>
+        <item>Mitte ükski</item>
+        <item>Virtuaalne klaviatuur</item>
+        <item>Otsi</item>
+        <item>Custom rakendus</item>
+        <item>Lülita olekuriba sisse/välja</item>
     </string-array>
 
     <string-array name="values_long_press_menu" translatable="false">
@@ -826,10 +826,10 @@
     </string-array>
     
     <string-array name="entries_led_disabled_from">
-        <item>10pm</item>
-        <item>11pm</item>
-        <item>12am</item>
-        <item>1am</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>12:00</item>
+        <item>01:00</item>
     </string-array>
     
     <string-array name="values_led_disabled_to">
@@ -840,10 +840,10 @@
     </string-array>
     
     <string-array name="entries_led_disabled_to">
-        <item>6am</item>
-        <item>7am</item>
-        <item>8am</item>
-        <item>9am</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
     </string-array>  
     
     <string-array name="values_update_check_hour">
@@ -881,14 +881,14 @@
     </string-array>
     
     <string-array name="entries_transparent_status_bar">
-        <item>Disabled</item>
-        <item>Theme</item>
-        <item>Semi-transparent</item>
+        <item>Keelatud</item>
+        <item>Teema</item>
+        <item>Pooleldi läbipaistev</item>
         <item>Gradient</item>
     </string-array>    
 
     <string-array name="pref_lockscreen_style_entries_gdx">
-        <item>Random</item>
+        <item>Suvaline</item>
         <item>Sliding Tab</item>
         <item>Rotary</item>
         <item>Rotary revamped</item>
